@@ -19,6 +19,7 @@
 |Price [zł]|RAM [GB]|Hard drive space [GB]|Screen resolution (width) [px]|Screen size ["]|Weight [kg]|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |0.3|0.2|0.05|0.2|0.2|0.05|
+|destimulant|stimulant|stimulant|stimulant|nominant (15.6)|destimulant|
 
 ### Normalization function: Standardization
 
