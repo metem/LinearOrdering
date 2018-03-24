@@ -20,9 +20,9 @@
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |0.3|0.2|0.05|0.2|0.2|0.05|
 
-### NormalizationFunction: Standardization
+### Normalization function: Standardization
 
-### DistanceFunction: Euclidean
+### Distance function: Euclidean
 
 ### Ranking:
 
