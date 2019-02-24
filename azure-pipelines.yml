@@ -8,7 +8,7 @@ trigger:
 - develop
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'VS2017-Win2016'
 
 variables:
   buildConfiguration: 'Release'
@@ -16,3 +16,13 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+- task: CopyFiles@2
+  inputs:
+    contents: '_buildOutput\**'
+    targetFolder: $(Build.ArtifactStagingDirectory)
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
+    artifactName: LinearOrdering
